@@ -1,0 +1,9 @@
+﻿Public Class Form4
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim ans As Integer
+        ans = MsgBox("Sure? ", vbOKCancel + vbQuestion, "Confirm")
+        If ans = vbOK Then
+            End
+        End If
+    End Sub
+End Class
